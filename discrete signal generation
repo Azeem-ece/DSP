@@ -1,0 +1,20 @@
+
+//Generation of unit sample sequence
+n=-2:1:2
+del_discrete=[zeros(1,2),ones(1,1),zeros(1,2)]
+figure
+subplot(231)
+plot2d3(n,del_discrete)
+xlabel('Discrete Time(n)')
+ylabel('Amplitude')
+title('Unit impulse Sequence')
+
+n1=0:1:5
+N=length(n1)
+unit_step=ones(1,N)
+subplot(232)
+plot2d3(n1,unit_step)
+xlabel('Discrete Time(n)')
+ylabel('Amplitude')
+title('Unit step Sequence')
+
