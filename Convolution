@@ -31,3 +31,7 @@ ylabel("Amplitude");
 disp("x = ", x);
 disp("h = ", h);
 disp("y = ", y);
+
+//Enter the sequence x =[1 2 3]
+//Enter the sequence h =[1 1]
+
